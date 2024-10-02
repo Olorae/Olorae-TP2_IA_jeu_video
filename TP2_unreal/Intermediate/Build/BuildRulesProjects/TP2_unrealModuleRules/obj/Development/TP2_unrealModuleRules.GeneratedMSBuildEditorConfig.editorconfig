@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP2_unrealModuleRules
-build_property.ProjectDir = C:\Users\Coralie\Desktop\Intelligence_artificielle_pour_le_jeu_video\TP2\Olorae\TP2_IA_jeu_video\TP2_unreal\Intermediate\Build\BuildRulesProjects\TP2_unrealModuleRules\
+build_property.ProjectDir = C:\Users\ctrembl109\Desktop\Intelligence artificielle pour le jeu video\TP2\Olorae-TP2_IA_jeu_video\TP2_unreal\Intermediate\Build\BuildRulesProjects\TP2_unrealModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
