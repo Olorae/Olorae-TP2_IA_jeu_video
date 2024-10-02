@@ -54,5 +54,23 @@
     <ClInclude Include="..\..\Source\TP2_unreal\TP2_unrealGameMode.h">
       <Filter>Source\TP2_unreal</Filter>
     </ClInclude>
+    <Filter Include="Source\TP2_unreal\Private">
+      <UniqueIdentifier>{27A3A151-2E58-3E71-955D-0489DCF304BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TP2_unreal\Private\Map">
+      <UniqueIdentifier>{D54C28D3-A7D0-3D84-B236-10CC20F673BA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TP2_unreal\Private\Map\Wall.cpp">
+      <Filter>Source\TP2_unreal\Private\Map</Filter>
+    </ClCompile>
+    <Filter Include="Source\TP2_unreal\Public">
+      <UniqueIdentifier>{6F1AA921-F625-3156-9153-55BF2D3F79D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TP2_unreal\Public\Map">
+      <UniqueIdentifier>{EFD0E982-041E-3834-BAE0-2D43EEE4A9BC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TP2_unreal\Public\Map\Wall.h">
+      <Filter>Source\TP2_unreal\Public\Map</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
