@@ -271,9 +271,17 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\TP2_unreal\TP2_unrealGameMode.h"/>
+    <ClCompile Include="..\..\Source\TP2_unreal\Private\Corner\CornerActor.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TP2_unreal\Private\Ghost\GhostCharacter.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TP2_unreal\Private\Map\Wall.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\TP2_unreal\Public\Corner\CornerActor.h"/>
+    <ClInclude Include="..\..\Source\TP2_unreal\Public\Ghost\GhostCharacter.h"/>
     <ClInclude Include="..\..\Source\TP2_unreal\Public\Map\Wall.h"/>
   </ItemGroup>
   <PropertyGroup>
