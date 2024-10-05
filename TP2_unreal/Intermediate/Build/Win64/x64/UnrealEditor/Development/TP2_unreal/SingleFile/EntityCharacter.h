@@ -1,0 +1,1 @@
+#include "C:/Users/Coralie/Desktop/Intelligence artificielle pour le jeu video/TP2/Olorae/TP2_IA_jeu_video/TP2_unreal/Source/TP2_unreal/Public/Entity/EntityCharacter.h"

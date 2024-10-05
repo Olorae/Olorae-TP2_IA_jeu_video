@@ -63,6 +63,12 @@
     <ClCompile Include="..\..\Source\TP2_unreal\Private\Corner\CornerActor.cpp">
       <Filter>Source\TP2_unreal\Private\Corner</Filter>
     </ClCompile>
+    <Filter Include="Source\TP2_unreal\Private\Entity">
+      <UniqueIdentifier>{BC196DC7-DC6D-34BD-9DD2-B8E8E935A610}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TP2_unreal\Private\Entity\EntityCharacter.cpp">
+      <Filter>Source\TP2_unreal\Private\Entity</Filter>
+    </ClCompile>
     <Filter Include="Source\TP2_unreal\Private\Ghost">
       <UniqueIdentifier>{E81E8B1E-B41A-37C5-A6D6-6151D18648AB}</UniqueIdentifier>
     </Filter>
@@ -84,6 +90,12 @@
     <ClInclude Include="..\..\Source\TP2_unreal\Public\Corner\CornerActor.h">
       <Filter>Source\TP2_unreal\Public\Corner</Filter>
     </ClInclude>
+    <Filter Include="Source\TP2_unreal\Public\Entity">
+      <UniqueIdentifier>{F6109B53-F94C-3EC9-A5C4-36EEDF495B0A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TP2_unreal\Public\Entity\EntityCharacter.h">
+      <Filter>Source\TP2_unreal\Public\Entity</Filter>
+    </ClInclude>
     <Filter Include="Source\TP2_unreal\Public\Ghost">
       <UniqueIdentifier>{86506D56-2E02-3642-8560-1FC66175C447}</UniqueIdentifier>
     </Filter>
@@ -96,5 +108,6 @@
     <ClInclude Include="..\..\Source\TP2_unreal\Public\Map\Wall.h">
       <Filter>Source\TP2_unreal\Public\Map</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
