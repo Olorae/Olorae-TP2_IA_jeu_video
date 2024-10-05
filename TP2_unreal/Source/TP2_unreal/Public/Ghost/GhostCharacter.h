@@ -4,21 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Entity/EntityCharacter.h"
+
 #include "GhostCharacter.generated.h"
 
+
 UCLASS()
-class TP2_UNREAL_API AGhostCharacter : public ACharacter
+class TP2_UNREAL_API AGhostCharacter : public AEntityCharacter
 {
 	GENERATED_BODY()
-
-	UPROPERTY(Category = Pawn, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	UPawnMovementComponent* MovementComponent;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* StaticMesh;
-
-	UPROPERTY(EditAnywhere)
-	class UBoxComponent* BoxCollision;
 
 public:
 	// Sets default values for this character's properties
@@ -34,8 +28,4 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-public:
-	void MoveTo(FVector Location);
-	FVector Seek(FVector Target);
 };
