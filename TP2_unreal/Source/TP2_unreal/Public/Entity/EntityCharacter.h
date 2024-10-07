@@ -7,7 +7,7 @@
 #include "EntityCharacter.generated.h"
 
 UCLASS()
-class TP2_UNREAL_API AEntityCharacter : public ACharacter
+class TP2_UNREAL_API AEntityCharacter : public APawn
 {
 	GENERATED_BODY()
 
